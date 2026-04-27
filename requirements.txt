@@ -8,6 +8,9 @@ matplotlib>=3.8
 # Part A - word embeddings
 gensim>=4.3.3
 
+# Part B - dataset fetcher
+kagglehub>=0.3.0
+
 # Part C - RNNs (PyTorch). CPU build by default; on Apple Silicon this gives MPS support.
 torch>=2.2
 
