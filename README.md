@@ -1,5 +1,7 @@
 # NLP NCSR — Assignment 2 (RNNs & Word Embeddings)
 
+[![Open Part C in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fgram-devAI/nlp-ncsr-task2/blob/main/notebooks/part_c_rnn_colab.ipynb)
+
 Implementation of Assignment 2 for the NCSR "Επεξεργασία Φυσικής Γλώσσας" (NLP) course.
 
 The assignment has three parts:
@@ -136,11 +138,10 @@ python -m part_c_rnn_classification.c6_glove_frozen   # repeat C.5 with frozen e
 python -m part_c_rnn_classification.c7_imdb           # repeat C.1 on IMDB (80/20 split)
 ```
 
-Or, to view all results in one place (this *loads* the saved JSONs and visualises — does **not** retrain):
+Two notebooks ship for Part C:
 
-```bash
-jupyter lab notebooks/part_c_rnn.ipynb
-```
+- [`notebooks/part_c_rnn.ipynb`](notebooks/part_c_rnn.ipynb) — local viewer; **does not retrain**, only loads the saved JSONs and renders tables / figures. Open with `jupyter lab notebooks/part_c_rnn.ipynb`.
+- [`notebooks/part_c_rnn_colab.ipynb`](notebooks/part_c_rnn_colab.ipynb) — **re-runs** the full grid on a Colab CUDA T4 (no Kaggle account needed — uses HuggingFace `datasets` for AG News + IMDB). One-click open: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fgram-devAI/nlp-ncsr-task2/blob/main/notebooks/part_c_rnn_colab.ipynb)
 
 ## Part C — Results summary
 
