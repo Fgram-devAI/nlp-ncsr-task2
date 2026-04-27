@@ -12,6 +12,8 @@ The assignment has three parts:
 | B    | Traditional text classification (NB / SVM)  | done        |
 | C    | Text classification with RNNs / LSTMs       | done        |
 
+📄 **Final report:** [NLP_Assignment2_Grammatikopoulos.pdf](NLP_Assignment2_Grammatikopoulos.pdf) — single-document deliverable with answers, tables and commentary for all three parts.
+
 ## Setup
 
 ```bash
@@ -36,9 +38,12 @@ nlp-ncsr-task2/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── NLP_Assignment2_Grammatikopoulos.pdf        # final report (LaTeX-built)
 ├── notebooks/                                  # one notebook per part
-│   ├── part_a_embeddings.ipynb
-│   └── part_b_traditional.ipynb
+│   ├── part_a_embeddings.ipynb                 # Part A — word2vec / GloVe exploration
+│   ├── part_b_traditional.ipynb                # Part B — NB / SVM on AG News
+│   ├── part_c_rnn.ipynb                        # Part C — local viewer; loads JSONs
+│   └── part_c_rnn_colab.ipynb                  # Part C — re-runs on Colab CUDA T4
 ├── part_a_embeddings/                          # Part A scripts
 │   ├── embeddings_utils.py
 │   ├── a1_given_words.py … a6_tsne_glove.py
