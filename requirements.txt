@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.26,<2.2
+scipy>=1.11
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Part A - word embeddings
+gensim>=4.3.3
+
+# Part C - RNNs (PyTorch). CPU build by default; on Apple Silicon this gives MPS support.
+torch>=2.2
+
+# Notebooks (final notebooks/ deliverable)
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# Misc
+tqdm>=4.66

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Datasets downloaded locally for Parts B and C (AG News, IMDB)
+data/
+
+# Local/scratch
+scratch/
+*.tmp
+*.log
+
+# Don't ignore the figures directory — it contains report deliverables
+!part_a_embeddings/figures/
+!part_a_embeddings/figures/**
